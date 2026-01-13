@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    /* Language */
+    "target": "ES2020",                     /* Modern JS output */
+    "module": "NodeNext",                   /* Node ESM modules */
+    "moduleResolution": "NodeNext",
+
+    /* Node environment */
+    "types": ["node"],                      /* Needed for process, fs, path, etc. */
+
+    /* Output */
+    "outDir": "./dist",                     /* Where compiled JS goes */
+    "rootDir": "./",                        /* Root folder for TypeScript */
+
+    /* Interop */
+    "esModuleInterop": true,                /* Allows default imports from CommonJS */
+    "forceConsistentCasingInFileNames": true,
+
+    /* Type checking */
+    "strict": true,
+    "skipLibCheck": true,                   /* Skip type checks for @types packages */
+
+    /* Extras */
+    "resolveJsonModule": true               /* Import JSON files as modules */
+  },
+
+  "include": [
+    "src/**/*",                             /* Your app source code */
+    "prisma/**/*"                           /* Prisma schema & seed */
+  ],
+
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

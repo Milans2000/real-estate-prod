@@ -1,0 +1,20 @@
+# dependencies
+node_modules/
+
+# build output
+.next/
+dist/
+build/
+
+# environment files
+.env
+.env.*
+client/.env*
+server/.env*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# editor / tooling
+.vscode/
