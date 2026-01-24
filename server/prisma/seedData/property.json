@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "name": "Sunny Downtown Apartment",
     "description": "A beautiful apartment in the heart of downtown with plenty of natural light.",
     "pricePerMonth": 1500,
@@ -10,8 +9,15 @@
       "/singlelisting-2.jpg",
       "/singlelisting-3.jpg"
     ],
-    "amenities": ["AirConditioning", "WasherDryer", "Parking"],
-    "highlights": ["HighSpeedInternetAccess", "CloseToTransit"],
+    "amenities": [
+      "AirConditioning",
+      "WasherDryer",
+      "Parking"
+    ],
+    "highlights": [
+      "HighSpeedInternetAccess",
+      "CloseToTransit"
+    ],
     "isPetsAllowed": true,
     "isParkingIncluded": false,
     "beds": 2,
@@ -21,78 +27,48 @@
     "postedDate": "2023-05-15T00:00:00Z",
     "averageRating": 4.5,
     "numberOfReviews": 10,
-    "locationId": 1
+
+    "location": {
+      "connect": { "id": 1 }
+    },
+    "manager": {
+      "connect": { "id": 1 }
+    }
   },
   {
-    "id": 2,
-    "name": "Cozy Beach House",
-    "description": "A charming home with beautiful views.",
-    "pricePerMonth": 2000,
-    "securityDeposit": 2000,
+    "name": "Modern Beachside Condo",
+    "description": "Luxury condo with ocean views and modern amenities.",
+    "pricePerMonth": 2800,
+    "securityDeposit": 2800,
     "applicationFee": 75,
     "photoUrls": [
-      "/singlelisting-3.jpg",
-      "/placeholder.jpg"
+      "/singlelisting-4.jpg",
+      "/singlelisting-5.jpg"
     ],
-    "amenities": ["AirConditioning", "WasherDryer", "Parking"],
-    "highlights": ["GreatView"],
-    "isPetsAllowed": true,
+    "amenities": [
+      "AirConditioning",
+      "Gym",
+      "Pool"
+    ],
+    "highlights": [
+      "OceanView",
+      "WalkToBeach"
+    ],
+    "isPetsAllowed": false,
     "isParkingIncluded": true,
     "beds": 3,
     "baths": 2,
-    "squareFeet": 1200,
-    "propertyType": "Villa",
+    "squareFeet": 1300,
+    "propertyType": "Condo",
     "postedDate": "2023-06-01T00:00:00Z",
     "averageRating": 4.8,
-    "numberOfReviews": 5,
-    "locationId": 2
-  },
-  {
-    "id": 3,
-    "name": "Modern City Loft",
-    "description": "Sleek and stylish loft in the heart of the city.",
-    "pricePerMonth": 2200,
-    "securityDeposit": 2200,
-    "applicationFee": 60,
-    "photoUrls": [
-      "/singlelisting-2.jpg",
-      "/placeholder.jpg"
-    ],
-    "amenities": ["AirConditioning", "WasherDryer"],
-    "highlights": ["HighSpeedInternetAccess"],
-    "isPetsAllowed": true,
-    "isParkingIncluded": false,
-    "beds": 1,
-    "baths": 1,
-    "squareFeet": 900,
-    "propertyType": "Apartment",
-    "postedDate": "2023-07-01T00:00:00Z",
-    "averageRating": 4.7,
-    "numberOfReviews": 8,
-    "locationId": 3
-  },
-  {
-    "id": 4,
-    "name": "Spacious Family Home",
-    "description": "Large family home with modern amenities.",
-    "pricePerMonth": 2500,
-    "securityDeposit": 2500,
-    "applicationFee": 80,
-    "photoUrls": [
-      "/singlelisting-3.jpg",
-      "/singlelisting-2.jpg"
-    ],
-    "amenities": ["AirConditioning", "WasherDryer", "Parking"],
-    "highlights": ["QuietNeighborhood"],
-    "isPetsAllowed": true,
-    "isParkingIncluded": false,
-    "beds": 4,
-    "baths": 3,
-    "squareFeet": 2000,
-    "propertyType": "Villa",
-    "postedDate": "2023-06-15T00:00:00Z",
-    "averageRating": 4.9,
-    "numberOfReviews": 12,
-    "locationId": 4
+    "numberOfReviews": 22,
+
+    "location": {
+      "connect": { "id": 2 }
+    },
+    "manager": {
+      "connect": { "id": 1 }
+    }
   }
 ]
